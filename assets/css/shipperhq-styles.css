@@ -1,0 +1,19 @@
+/*
+ * Shipper HQ
+ *
+ * @category ShipperHQ
+ * @package wordpress
+ * @copyright Copyright (c) 2022 Zowta LTD and Zowta LLC (http://www.ShipperHQ.com)
+ * @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @author ShipperHQ Team sales@shipperhq.com
+ */
+
+.shipperhq-method-description {
+    font-size: small;
+    display: block;
+}
+
+/*
+Placeholder. Can be used to change style of shipping method label
+label[for^="shipping_method"] { }
+*/

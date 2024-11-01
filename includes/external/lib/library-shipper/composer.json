@@ -1,0 +1,32 @@
+{
+    "name": "shipperhq/library-shipper",
+    "description": "ShipperHQ Library",
+    "type": "magento2-library",
+    "version": "20.17.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "ShipperHQ",
+            "email": "sales@shipperhq.com",
+            "homepage": "http://www.Shipperhq.com"
+        },
+        {
+            "name": "Zowta LLC"
+        }
+    ],
+
+    "support": {
+        "documentation": "http://docs.shipperhq.com"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ShipperHQ\\Lib\\": "src/"
+        }
+    }
+}
